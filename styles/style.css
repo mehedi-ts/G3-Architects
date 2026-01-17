@@ -11,7 +11,6 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 main {
-  border: 1px solid brown;
   max-width: 1440px;
   margin: 0px auto;
 }
@@ -134,14 +133,13 @@ nav {
 /* the "love-list" section start  */
 .love-list {
   display: flex;
-  border: 1px solid magenta;
   padding: 20px 0px;
   align-items: center;
   gap: 70px;
   position: relative;
 }
 .list-con {
-  padding: 2px 30px;
+  padding: 2px 30px 2px 0px;
 }
 .heading-l h2 {
   border-left: 6px solid #ff900e;
@@ -196,7 +194,6 @@ nav {
 }
 /* the "Some Facts" section start  */
 .Some-Facts {
-  border: 1px solid indianred;
   display: flex;
   flex-direction: column;
   padding: 70px 0px;
@@ -236,7 +233,6 @@ nav {
 }
 /* the 'sponsor'section start  */
 .sponsor {
-  border: 1px solid lemonchiffon;
   display: flex;
   flex-direction: column;
   align-items: center;
