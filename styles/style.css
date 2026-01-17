@@ -10,6 +10,11 @@ html {
 body {
   font-family: "Work Sans", sans-serif;
 }
+main {
+  border: 1px solid brown;
+  max-width: 1440px;
+  margin: 0px auto;
+}
 nav {
   display: flex;
   align-items: center;
@@ -82,4 +87,47 @@ nav {
 }
 .banner-img img {
   width: 100%;
+}
+/* section "list-of-features" start  */
+.list-of-features {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 85px 0px;
+}
+.team-imgs {
+  gap: 9px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.team-imgs img {
+  width: 340px;
+}
+.features-con {
+  width: 36%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: baseline;
+}
+.features-con h2 {
+  font-size: 2.8rem;
+}
+#one {
+  font-weight: 500;
+  color: #727272;
+}
+#two {
+  font-weight: bold;
+  color: #131313;
+}
+#three {
+  font-weight: bold;
+  color: #ff900e;
+}
+.features-con p {
+  font-size: 1rem;
+  color: #727272;
 }
