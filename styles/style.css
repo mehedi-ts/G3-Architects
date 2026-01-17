@@ -261,3 +261,12 @@ nav {
   width: 100%;
   color: antiquewhite;
 }
+.footer {
+  max-width: 1440px;
+  padding: 70px 0px;
+  margin: 0px auto;
+  background-color: #fff4e7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
